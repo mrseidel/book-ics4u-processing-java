@@ -23,9 +23,30 @@ The general setup for a function is as follows:
 To give some more formal examples:
 
 ```processing
-int addition(int first, int second) {
-    int sum = first + second;
+float addition(float first, float second) {
+    float sum = first + second;
     return sum;
 }```
-This function takes in two parameters ```first``` and ```second``` of type ```int```, adds them together, and then returns the sum as an ```int``` to whoever called the function.
+
+This function takes in two parameters ```first``` and ```second``` of type ```float```, adds them together, and then returns the sum as an ```float``` to whoever called the function.
+
+An example that could use this function in Processing would look like:
+
+```processing
+void setup() {
+    size(500, 500);
+}
+    
+void draw() {
+    fill(255);
+    
+    float position = addition(mouseX, mouseY)/2;
+    ellipse(position, height/2, 50, 50);
+}
+
+float addition(float first, float second) {
+  float sum = first + second;
+  return sum;
+}
+```
 
