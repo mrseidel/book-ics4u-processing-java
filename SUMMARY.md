@@ -5,5 +5,5 @@
 * [Objects](objects.md)
 * [Inheritance](inheritance.md)
 * [interfaces](interfaces.md)
-* Polymorphism
+* [Polymorphism](polymorphism.md)
 
