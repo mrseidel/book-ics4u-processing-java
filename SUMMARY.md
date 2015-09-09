@@ -8,4 +8,5 @@
 * [Polymorphism](polymorphism.md)
 * [File IO](file_io.md)
 * [Other IO](other_io.md)
+* Sorting
 
