@@ -9,5 +9,5 @@
 * [File IO](file_io.md)
 * [Other IO](other_io.md)
 * [Sorting](sorting.md)
-* Searching
+* [Searching](searching.md)
 
