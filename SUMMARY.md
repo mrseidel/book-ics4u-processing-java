@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Functions (beyond void)](functions_beyond_void.md)
-* Objects
+* [Objects](objects.md)
 
