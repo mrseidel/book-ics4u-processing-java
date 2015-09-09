@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* Functions (beyond void)
+* [Functions (beyond void)](functions_beyond_void.md)
 
