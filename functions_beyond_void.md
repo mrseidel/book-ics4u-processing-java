@@ -26,7 +26,8 @@ To give some more formal examples:
 float addition(float first, float second) {
     float sum = first + second;
     return sum;
-}```
+}
+```
 
 This function takes in two parameters ```first``` and ```second``` of type ```float```, adds them together, and then returns the sum as an ```float``` to whoever called the function.
 
@@ -50,3 +51,8 @@ float addition(float first, float second) {
 }
 ```
 
+###Functions vs Methods
+
+The only difference between a function and a method in Processing/Java, is that a method is inside an object, and a function has no association to an object.
+
+To learn more about objects, or to refresh your memory regardig objects, please see the [Objects](./objects.md) chapter.
