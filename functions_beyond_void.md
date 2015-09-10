@@ -38,7 +38,7 @@ This function takes in two parameters `first` and `second` of type `float`, adds
 An example that could use this function in Processing would look like:
 
 ```processing
-Example #3
+//Example #3
 
 void setup() {
     size(500, 500);
