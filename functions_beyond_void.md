@@ -3,7 +3,7 @@
 In the previous course, you were introduced to some basic functions and methods in which the only return value was ``void``.
 
 The following example of a function should look familiar:
-```
+```processing
 //Example #1
 
 void display() {
