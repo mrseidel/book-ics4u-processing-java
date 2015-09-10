@@ -8,7 +8,8 @@ The following example of a function should look familiar:
 
 void display() {
     ellipse(500, 500, 50, 50);
-}```
+}
+```
 
 The only purpose of this function is display an ellipse at `500, 500`, with a size of `50`.
 
@@ -20,7 +21,8 @@ The general setup for a function is as follows:
 <returnType> functionName(<parameters>) {
     //function does work here
     return <returnType>
-}```
+}
+```
 
 To give some more formal examples:
 
