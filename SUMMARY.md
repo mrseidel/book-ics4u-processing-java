@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Functions (beyond void)](functions_beyond_void.md)
+* [UML](uml.md)
 * [Objects](objects.md)
 * [Inheritance](inheritance.md)
 * [Polymorphism](polymorphism.md)
@@ -14,5 +15,4 @@
 * [Big Data](big_data.md)
 * [Appendix A - Assignments](appendix_a_-_assignments.md)
 * [Appendix B - Code Samples](appendix_b_-_code_samples.md)
-* [UML](uml.md)
 
