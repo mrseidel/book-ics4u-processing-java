@@ -7,7 +7,11 @@ In this class, we will be learning the basics of UML class diagrams to plan out 
 ##Purpose
 In previous years, we focused on flowcharting which helped with the direction and flow of the project.  This year we will be looking at the UML class diagrams to help us plan our projects.  Class diagrams help to ensure encapsulation as well as give us a good overview of the work to complete before starting on our code.
 
+This type of planning is useful in a collaborative environment.  Team members have their responsibilities and understanding of how each other class will be set up.
+
 ##Structure
+
+###Single class
 A class diagram is set up into 3 different sections.  The class name, the instance variables, and the methods that exist within that object.
 
 | BankAccount |
@@ -19,3 +23,9 @@ The above is a basic example of a class diagram that could be used for a bank ac
 
 The first section contains the class name `BankAccount`.  The next section contains the instance variables `owner` and `balance` as well as their datatypes and their default starting values (if necessary).  The last section contains the various methods a `BankAccount` can have: `deposit` and `withdrawal`.  It also contains each of the method's parameter lists, which happen to contain 1 item `amount` of type `float`.
 
+###Relationships
+In a larger environment, there will be many class diagrams all inter-related in some fashion.  This is where a relationship diagram involving the various class diagrams comes in handy.
+
+In the example below, there are two types of arrows showing the relationship between the classes.  The solid-lined arrow shows an "IS-A" [inheritance](./inheritance.md) relationship, whereas the dashed-lined arrow shows a "HAS-A" [inheritance](./inheritance.md) relationship.
+
+![Alt text](./img/uml_relationship_example.png)
