@@ -2,9 +2,9 @@
 
 * [Introduction](README.md)
 * [Functions (beyond void)](functions_beyond_void.md)
+* [Objects](objects.md)
 * [UML](uml.md)
 * [Project Management](project_management.md)
-* [Objects](objects.md)
 * [Inheritance](inheritance.md)
 * [Polymorphism](polymorphism.md)
 * [Interfaces](interfaces.md)
