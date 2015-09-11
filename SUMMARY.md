@@ -9,7 +9,7 @@
 * [Inheritance](inheritance.md)
 * [Polymorphism](polymorphism.md)
 * [File IO](file_io.md)
-* [Other IO](other_io.md)
+* [Other Input](other_io.md)
 * [Sorting](sorting.md)
 * [Searching](searching.md)
 * [Big Data](big_data.md)
