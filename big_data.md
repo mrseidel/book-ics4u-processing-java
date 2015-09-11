@@ -9,4 +9,4 @@ There are two types of data: structured, and unstructured.  Unstructured data te
 
 
 ###Assignment
-See the assignment section to go over the details of the Big Data assignment, and see the class website for submission details.
+See the assignment section to go over the details of the Big Data assignment.
