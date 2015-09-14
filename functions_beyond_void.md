@@ -65,7 +65,7 @@ In example #3 above, the use of the addition function is add the values of `mous
 
 ###Functions vs Methods
 
-The only difference between a function and a method in Processing/Java, is that a method is inside an object, and a function has no association to an object.
+The only difference between a function and a method in Processing/Java, is that a method is inside an object, and a function does not need to associate with an object.
 
 To learn more about objects, or to refresh your memory regarding objects, please see the [Objects](./objects.md) chapter.
 
