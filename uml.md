@@ -14,14 +14,14 @@ This type of planning is useful in a collaborative environment.  Team members ha
 ###Single class
 A class diagram is set up into 3 different sections.  The class name, the instance variables, and the methods that exist within that object.
 
-| BankAccount |
+| Course |
 |------|
-|owner : String <br/> balance : float = 0 |
-|deposit (amount : float) <br/> withdrawal (amount : float) |
+|teacher : String = "Mr. Seidel" <br/> courseCode : String |
+|handInWork (work : String) <br/> receiveGrade (grade : int) |
 
-The above is a basic example of a class diagram that could be used for a bank account.
+The above is a basic example of a class diagram that could be used for a course offered at high school.
 
-The first section contains the class name `BankAccount`.  The next section contains the instance variables `owner` and `balance` as well as their datatypes and their default starting values (if necessary).  The last section contains the various methods a `BankAccount` can have: `deposit` and `withdrawal`.  It also contains each of the method's parameter lists, which happen to contain 1 item `amount` of type `float`.
+The first section contains the class name `Course`.  The next section contains the instance variables `teacher` and `courseCode` as well as their datatypes and their default starting values (if necessary).  The last section contains the various methods a `Course` can have: `handInWork` and `receiveGrade`.  It also contains each of the method's parameter lists.  There is one parameter for `handInWork` which is `work` of type `String`, and one parameter for `receiveGrade` which is `grade` of type `int`.
 
 ###Relationships
 In a larger environment, there will be many class diagrams all inter-related in some fashion.  This is where a relationship diagram involving the various class diagrams comes in handy.
