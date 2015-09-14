@@ -16,7 +16,7 @@ A class diagram is set up into 3 different sections.  The class name, the instan
 
 | Course |
 |------|
-|teacher : String = "Mr. Seidel" <br/> courseCode : String |
+|teacher : String = "Mr. Teacher" <br/> courseCode : String |
 |handInWork (work : String) <br/> receiveGrade (grade : int) |
 
 The above is a basic example of a class diagram that could be used for a course offered at high school.
