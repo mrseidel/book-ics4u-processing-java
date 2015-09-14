@@ -11,9 +11,9 @@ void display() {
 }
 ```
 
-The only purpose of this function is display an ellipse at `500, 500`, with a size of `50`.
+The only purpose of this function is display an ellipse at `500, 500` with a size of `50, 50`.
 
-Even though these proved useful, there is more to functions than what was given to you previously.  Functions can be used to complete calculations, or to see if something is `true` or `false`.
+Even though these proved useful, there is more to functions than what was given to you previously.  Functions can be used to complete calculations, or to see if something is `true` or `false`, and more.
 
 The general setup for a function is as follows:
 
@@ -30,8 +30,7 @@ To give some more formal examples:
 //Example #2
 
 float addition(float first, float second) {
-    float sum = first + second;
-    return sum;
+    return first + second;
 }
 ```
 
