@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Functions (beyond void)](functions_beyond_void.md)
+* [Javadocs](javadocs.md)
 * [Objects](objects.md)
 * [UML](uml.md)
 * [Project Management](project_management.md)
@@ -15,5 +16,4 @@
 * [Big Data](big_data.md)
 * [Appendix A - Assignments](appendix_a_-_assignments.md)
 * [Appendix B - Code Samples](appendix_b_-_code_samples.md)
-* [Javadocs](javadocs.md)
 
