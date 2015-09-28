@@ -12,4 +12,4 @@ This work by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attrib
 [All licensing herein falls under Free Cultural Works](http://freedomdefined.org/Definition)
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
-<a href="http://www.gnu.org/licenses/gpl.html"><img src="./img/gplv3-127x51.png" alt="GPL Version 3"><a href="http://freedomdefined.org/Definition"><img src="./img/freecontent_logo.png" alt="Free Cultural Works"></a>
+<a href="http://www.gnu.org/licenses/gpl.html"><img src="./img/gplv3-80.png" alt="GPL Version 3"><a href="http://freedomdefined.org/Definition"><img src="./img/freecontent_logo.png" alt="Free Cultural Works"></a>
