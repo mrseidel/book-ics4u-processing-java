@@ -13,6 +13,6 @@ The programming language used in this textbook is [Processing](http://www.proces
 
 This work by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Andrew Seidel</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-[All code samples included in this text, ad in the online repository, are licensed under the GPL Version 3 License](http://www.gnu.org/licenses/gpl.html)
+[All code samples included in this text, and in the online repository, are licensed under the GPL Version 3 License](http://www.gnu.org/licenses/gpl.html)
 
 [All licensing herein falls under Free Cultural Works](http://freedomdefined.org/Definition)
