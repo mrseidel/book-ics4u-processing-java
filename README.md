@@ -1,4 +1,4 @@
-ICS4U Textbook Using Processing and Java
+Intermediate Computer Science Using Processing and Java
 =======
 
 This textbook is aimed at the Computer Science course (ICS4U), based on the [Ontario Computer Studies Curriculum](https://www.edu.gov.on.ca/eng/curriculum/secondary/computer10to12_2008.pdf).
@@ -16,3 +16,6 @@ This work by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attrib
 [All code samples included in this text, and in the online repository, are licensed under the GPL Version 3 License](http://www.gnu.org/licenses/gpl.html)
 
 [All licensing herein falls under Free Cultural Works](http://freedomdefined.org/Definition)
+
+"Java" is a registered trademark of Oracle and/or its affiliates.<br/>
+"Processing" is an open-sourced programming language.  More information can be found [here](https://processing.org/copyright.html) regarding copyright.
