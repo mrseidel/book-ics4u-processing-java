@@ -7,6 +7,8 @@ Think of an object that you can hold.  Let's say, a tennis ball.  This item was 
 Previous you might have seen code that looks like this in Processing.
 
 ```processing
+//Example #Objects-1
+
 float x, y; //x and y coordinates for the moving circle
 float xspeed, yspeed; //speed and direction of motion for the circle
 
