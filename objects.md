@@ -48,6 +48,8 @@ void checkEdges() {
 To recreate this code using objects and classes, you would do the following:
 
 ```processing
+//Example #Objects-2
+
 MovingCircle mc;
 
 void setup() {
@@ -95,6 +97,8 @@ class MovingCircle {
 Now think of this ```class MovingCircle``` as a template.  In this example we have created one single ```MovingCircle```; however, with the way this has been set up, it is simple to create a second or more ```MovingCircle```.  See the example below for creating 2 different ```MovingCircle``` objects.
 
 ```processing
+//Example #Objects-3
+
 MovingCircle mc, mc2;
 
 void setup() {
@@ -157,6 +161,8 @@ When you are first creating classes from scratch, you will want to think of the 
 Converting the ```MovingCircle``` class from above into Java is rather simple.  Let's just jump in and see what this same class would look like in Java (including Javadocs).
 
 ```java
+//Example #Objects-4
+
 /**
  * This class is used for a Moving Circle
  *
