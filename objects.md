@@ -1,5 +1,7 @@
 #Objects & Classes
 
+###Processing Example
+
 Think of an object that you can hold.  Let's say, a tennis ball.  This item was created using a template.  Let's keep this in mind as we go through what Objects and Classes are in Java.
 
 Previous you might have seen code that looks like this in Processing.
@@ -148,3 +150,124 @@ Now, let's break down how a class is setup in comparison to what it was as a fun
 * We moved all of the functions from outside the ```draw()``` and ```setup()``` functions inside the ```MovingCircle``` class.  These are now called **methods** of this particular class (or things this class can do).
  
 When you are first creating classes from scratch, you will want to think of the different ways that you want to use the class.  This will help with the characteristics (typically instance variables) and abilities (typically methods) of the class you are making.
+
+###Converting to Java
+Converting the ```MovingCircle``` class from above into Java is rather simple.  Let's just jump in and see what this same class would look like in Java (including Javadocs).
+
+```java
+/**
+ * This class is used for a Moving Circle
+ *
+ * @author Mr. Seidel
+ * @since JDK 8
+ * @since October 5, 2015
+ * @version 1.0
+ */
+public class MovingCircle {
+
+    private float x, y;           //coordinates of this Moving Circle
+    private float xspeed, yspeed; //movement direction of this Moving Circle
+    
+    /** 
+     * This is the default constructor
+     * It sets all instance variable to zero
+     */
+    public MovingCircle() { 
+        x = 0;
+        y = 0;
+        xspeed = 0;
+        yspeed = 0;
+    }
+    
+    /** 
+     * Takes in the x and y coordinates of the MovingCircle
+     *
+     * @param x the initial value of the x coordinate
+     * @param y the initial value of the y coordinate
+     */
+    public MovingCircle(float x, float y) { 
+        this.x = x;
+        this.y = y;
+        xspeed = 0;
+        yspeed = 0;
+    }
+    
+    /** 
+     * Takes in the x and y coordinates of the MovingCircle, as well as the initial speeds
+     *
+     * @param x the initial value of the x coordinate
+     * @param y the initial value of the y coordinate
+     * @param xspeed the initial value of the x-speed
+     * @param yspeed the initial value of the y-speed
+     */
+    public MovingCircle(float x, float y, float xspeed, float yspeed) { 
+        this.x = x;
+        this.y = y;
+        this.xspeed = xspeed;
+        this.yspeed = yspeed;
+    }
+    
+    
+    /**
+     * This method displays the MovingCircle to the screen
+     * 
+     */
+    public void display() {
+        //insert a way to draw the circle here
+    }
+
+    /**
+     * This method updates the position of the MovingCircle
+     *
+     */
+    public void update() {
+        x = x + xspeed;
+        y = y + yspeed;
+    }
+
+    /**
+     * Checks to see if the MovingCircle has his the boundaries
+     *
+     */
+    public void checkEdges() {
+        if (/* insert information about the screen here for left and right sides */) {
+            xspeed = xspeed * -1;
+        }
+        if (/* insert information about the screen here for top and bottom sides */) {    
+            yspeed = yspeed * -1;
+        }
+    }
+    
+    /**
+     * Gets the value of the private instance variable x
+     * @return the value of x as a float
+     */
+    public float getX() {
+        return x;
+    }
+    
+    /**
+     * Gets the value of the private instance variable y
+     * @return the value of y as a float
+     */
+    public float getY() {
+        return y;
+    }
+    
+    /**
+     * Sets the value of the private instance variable x
+     * @param x  the value to set the instance variable x to
+     */
+    public void setX(float x) {
+        this.x = x;
+    }
+    
+    /**
+     * Sets the value of the private instance variable y
+     * @param y  the value to set the instance variable x to
+     */
+    public void setY(float y) {
+        this.y = y;
+    }
+} 
+```
