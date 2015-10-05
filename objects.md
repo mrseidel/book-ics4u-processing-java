@@ -271,3 +271,5 @@ public class MovingCircle {
     }
 } 
 ```
+There are new ideas and concepts introduced in the Java version, and we'll go over those one at a time:
+* public vs. private
