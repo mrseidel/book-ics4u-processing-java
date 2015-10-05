@@ -289,3 +289,8 @@ There are new ideas and concepts introduced in the Java version, and we'll go ov
 * **Multiple Constructors**: When you want to have different ways of building an object, you can have multiple constructors as long as they have different parameter lists.  In this example, there is a default one with no parameters, one taking in the set of coordinates, and the final one that takes in the set of coordinates and the speeds as well.
 * **this**: Refers to the instance variable or the instance method; whereas a variable or method that is not referred to with ```this``` written in front of it can refer to any other variable or method.  This allows us to use the same name for variables in parameter lists as variables inside the classes (```this.x = x;``` as an example).
 * **getter and setter methods**: These types of methods allow you to access particular private variables that you want to give access to in a safe way.  One reason this is safer than just setting the variables to public is when you are working with conditional statements.  For example, if you were to type ```if (mc.x = 5) {``` by accident, this would set the variable x to the value of 5; whereas, if you were to use ```if (mc.getX() = 5) {``` this would immediately flag an error as you cannot do this.
+
+
+###Exercises
+1. Take a Processing program that does not use objects and classes, and convert it into one that does.
+2. Take one of your Processing programs and convert it into a Java program.
