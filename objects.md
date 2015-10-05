@@ -1,2 +1,145 @@
-#Objects
+#Objects & Classes
 
+Think of an object that you can hold.  Let's say, a tennis ball.  This item was created using a template.  Let's keep this in mind as we go through what Objects and Classes are in Java.
+
+Previous you might have seen code that looks like this in Processing.
+
+```processing
+float x, y; //x and y coordinates for the moving circle
+float xspeed, yspeed; //speed and direction of motion for the circle
+
+void setup() {
+    size(500, 500);
+    x = width/2;
+    y = height/2;
+    xspeed = random(-5, 5);
+    yspeed = random(-5, 5);
+}
+
+void draw() {
+    display();
+    update();
+    checkEdges();
+}
+
+void display() {
+    ellipse(x, y, 50, 50);
+}
+
+void update() {
+    x = x + xspeed;
+    y = y + yspeed;
+}
+
+void checkEdges() {
+    if (x > width || x < 0) {
+        xspeed = xspeed * -1;
+    }
+    if (y > height || y < 0) {    
+        yspeed = yspeed * -1;
+    }
+}
+```
+
+To recreate this code using objects and classes, you would do the following:
+
+```processing
+MovingCircle mc;
+
+void setup() {
+    size(500, 500);
+    mc = new MovingCircle();
+}
+
+void draw() {
+    mc.display();
+    mc.update();
+    mc.checkEdges();
+}
+
+class MovingCircle {
+    float x, y; //coordinates of this Moving Circle
+    float xspeed, yspeed; //movement direction of this Moving Circle
+    
+    MovingCircle() { //Constructor for a Moving Circle
+        x = width/2;
+        y = height/2;
+        xspeed = random(-5, 5);
+        yspeed = random(-5, 5);
+    }
+    
+    void display() {
+        ellipse(x, y, 50, 50);
+    }
+
+    void update() {
+        x = x + xspeed;
+        y = y + yspeed;
+    }
+
+    void checkEdges() {
+        if (x > width || x < 0) {
+            xspeed = xspeed * -1;
+        }
+        if (y > height || y < 0) {    
+            yspeed = yspeed * -1;
+        }
+    }
+} //end of class
+```
+
+Now think of this ```class MovingCircle``` as a template.  In this example we have created one single ```MovingCircle```; however, with the way this has been set up, it is simple to create a second or more ```MovingCircle```.  See the example below for creating 2 different ```MovingCircle``` objects.
+
+```processing
+MovingCircle mc, mc2;
+
+void setup() {
+    size(500, 500);
+    mc = new MovingCircle();
+    mc2 = new MovingCircle();
+}
+
+void draw() {
+    mc.display();
+    mc.update();
+    mc.checkEdges();
+    
+    mc2.display();
+    mc2.update();
+    mc2.checkEdges();
+}
+
+class MovingCircle {
+    float x, y; //coordinates of this Moving Circle
+    float xspeed, yspeed; //movement direction of this Moving Circle
+    
+    MovingCircle() { //Constructor for a Moving Circle
+        x = width/2;
+        y = height/2;
+        xspeed = random(-5, 5);
+        yspeed = random(-5, 5);
+    }
+    
+    void display() {
+        ellipse(x, y, 50, 50);
+    }
+
+    void update() {
+        x = x + xspeed;
+        y = y + yspeed;
+    }
+
+    void checkEdges() {
+        if (x > width || x < 0) {
+            xspeed = xspeed * -1;
+        }
+        if (y > height || y < 0) {    
+            yspeed = yspeed * -1;
+        }
+    }
+} //end of class
+```
+As you can see, we didn't have to change anything in the ```MovingCircle``` class to accommodate a second moving circle.  The only changes was to create a second **object** based on the ```MovingCircle``` **class**.
+
+Now, let's break down how a class is setup in comparison to what it was as a functional program:
+* All classes are named with a capital letter to start.  This is to distinguish it from a variable (which we always start with a small letter)
