@@ -274,4 +274,4 @@ public class MovingCircle {
 There are new ideas and concepts introduced in the Java version, and we'll go over those one at a time:
 * **public vs. private**: Typically anything that is information that you do not want automatically accessible to other parts of your program, you will set these items to **private**.  Anything you want accessible to anyone you would set these items to **public**.
 * **Multiple Constructors**: When you want to have different ways of building an object, you can have multiple constructors as long as they have different parameter lists.  In this example, there is a default one with no parameters, one taking in the set of coordinates, and the final one that takes in the set of coordinates and the speeds as well.
-* 
+* **this**: Refers to the instance variable or the instance method; whereas a variable or method that is not referred to with ```this``` written in front of it can refer to any other variable or method.  This allows us to use the same name for variables in parameter lists as variables inside the classes (```this.x = x;``` as an example).
