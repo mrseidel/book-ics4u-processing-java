@@ -142,4 +142,9 @@ class MovingCircle {
 As you can see, we didn't have to change anything in the ```MovingCircle``` class to accommodate a second moving circle.  The only changes was to create a second **object** based on the ```MovingCircle``` **class**.
 
 Now, let's break down how a class is setup in comparison to what it was as a functional program:
-* All classes are named with a capital letter to start.  This is to distinguish it from a variable (which we always start with a small letter)
+* All classes are named with a capital letter to start.  This is to distinguish it from a variable (which we always start with a small letter).
+* We moved all of the variable outside of the ```draw()``` and ```setup()``` into the class, but not inside any method.  These are now called **instance variables**.
+* We moved everything that was inside ```setup()``` that had to do with the circle into ```MovingCircle()```. This special method is called the **constructor**.  A constructor is called whenever an object is first created, like in the line ```mc = new MovingCircle();```.  A constructor tells the program what to do whenever an object is _first created_.
+* We moved all of the functions from outside the ```draw()``` and ```setup()``` functions inside the ```MovingCircle``` class.  These are now called **methods** of this particular class (or things this class can do).
+ 
+When you are first creating classes
