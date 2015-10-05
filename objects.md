@@ -147,4 +147,4 @@ Now, let's break down how a class is setup in comparison to what it was as a fun
 * We moved everything that was inside ```setup()``` that had to do with the circle into ```MovingCircle()```. This special method is called the **constructor**.  A constructor is called whenever an object is first created, like in the line ```mc = new MovingCircle();```.  A constructor tells the program what to do whenever an object is _first created_.
 * We moved all of the functions from outside the ```draw()``` and ```setup()``` functions inside the ```MovingCircle``` class.  These are now called **methods** of this particular class (or things this class can do).
  
-When you are first creating classes
+When you are first creating classes from scratch, you will want to think of the different ways that you want to use the class.  This will help with the characteristics (typically instance variables) and abilities (typically methods) of the class you are making.
