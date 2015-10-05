@@ -171,6 +171,7 @@ public class MovingCircle {
     /** 
      * This is the default constructor
      * It sets all instance variable to zero
+     *
      */
     public MovingCircle() { 
         x = 0;
@@ -240,6 +241,7 @@ public class MovingCircle {
     
     /**
      * Gets the value of the private instance variable x
+     *
      * @return the value of x as a float
      */
     public float getX() {
@@ -248,6 +250,7 @@ public class MovingCircle {
     
     /**
      * Gets the value of the private instance variable y
+     *
      * @return the value of y as a float
      */
     public float getY() {
@@ -256,6 +259,7 @@ public class MovingCircle {
     
     /**
      * Sets the value of the private instance variable x
+     *
      * @param x  the value to set the instance variable x to
      */
     public void setX(float x) {
@@ -264,6 +268,7 @@ public class MovingCircle {
     
     /**
      * Sets the value of the private instance variable y
+     *
      * @param y  the value to set the instance variable x to
      */
     public void setY(float y) {
