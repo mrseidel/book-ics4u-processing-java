@@ -28,12 +28,12 @@ float addition(float first, float second) {
 }
 ```
 
-Reading through the documentation for the function makes it so that other users will be able to understand the purpose behind your functions, methods, and objects.  Let's go through the format of the Javadocs above.
+Creating documentation makes it easier to understand the purpose behind your functions, methods, and objects.  Let's go through the format of the Javadocs above.
 * The first section is the description of what the function is for.
 * The `@param` is used to describe what each parameter is.
 * The `@return` portion describes what is going to be returned from the function
 
-There will be a more in-depth look at documentation in the [Objects](./objects.md) and [Inheritance](./inheritance.md) sections of the text, which will include documentation specifically for objects, and shortcuts we can use for inheritance documentation.
+Typically, these above is all we will be using in this course for any functions or methods.  There are some other documentation items that we use for classes instead.  There are examples of this documentation in the [Objects](./objects.md) and [Inheritance](./inheritance.md) sections of the text.
 
 ###Exercises
 1. Go back to the exercise(s) you completed in the [Functions](./functions_beyond_void.md) section, and create documentation for all of the functions excluding `draw()` and `setup()`.
