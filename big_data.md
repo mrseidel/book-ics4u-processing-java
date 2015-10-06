@@ -5,7 +5,14 @@ Data is being collected everyday and everywhere in this day and age.  There is s
 There are two types of data: structured, and unstructured.  Unstructured data tends not to be well formatted, and is difficult to parse through with a computer program.  Structures data, on the other hand, is easy to work with and parse through with a computer program.
 
 ###Methods of Dealing with the Data
+There are a few methods of dealing with the large amounts of data:
 
+* Threads
+* Read in the data by chunking it
+
+[Threading](https://docs.oracle.com/javase/tutorial/essential/concurrency/procthread.html) is a very advanced concept and will not be covered in this book.
+
+--Incomplete--
 
 
 ###Assignment
