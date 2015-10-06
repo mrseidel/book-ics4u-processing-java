@@ -14,6 +14,5 @@
 * [Sorting](sorting.md)
 * [Searching](searching.md)
 * [Big Data](big_data.md)
-* [Appendix A - Assignments](appendix_a_-_assignments.md)
 * Recursion
 
