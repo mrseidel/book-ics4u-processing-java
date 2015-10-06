@@ -2,7 +2,7 @@
 
 ###Processing Example
 
-Think of an object that you can hold.  Let's say, a tennis ball.  This item was created using a template.  Let's keep this in mind as we go through what Objects and Classes are in Java.
+Think of an object that you can hold.  Let's say, a tennis ball.  At the manufacturer they use a template to create a tennis ball.  Let's keep this in mind as we go through what Objects and Classes are in Java.
 
 Previous you might have seen code that looks like this in Processing.
 
