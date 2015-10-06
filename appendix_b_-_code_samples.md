@@ -1,1 +1,0 @@
-For code samples for the book, please check out the [Git repository](https://github.com/mrseidel/gitbook-codesamples).  
