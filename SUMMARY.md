@@ -16,4 +16,5 @@
 * [Big Data](big_data.md)
 * [Appendix A - Assignments](appendix_a_-_assignments.md)
 * [Appendix B - Code Samples](appendix_b_-_code_samples.md)
+* Recursion
 
