@@ -5,6 +5,7 @@ This textbook is aimed at the Computer Science course (ICS4U), based on the [Ont
 
 The programming language used in this textbook is [Processing](http://www.processing.org/), a Java-based language, and [Java](http://www.oracle.com/technetwork/java/javase/downloads/index.html).  All of the examples, exercises, and assignments can be easily modified to work with any other programming language.
 
+Code samples for this book are on the [Git repository](https://github.com/mrseidel/gitbook-codesamples) associated with this book.  
 
 ####Licensing
 
