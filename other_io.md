@@ -1,5 +1,0 @@
-#Other Input Devices
-
-###Webcam
-
-
