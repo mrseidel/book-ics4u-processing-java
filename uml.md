@@ -29,3 +29,8 @@ In a larger environment, there will be many class diagrams all inter-related in 
 In the example below, there are two types of arrows showing the relationship between the classes.  The solid-lined arrow shows an "IS-A" [inheritance](./inheritance.md) relationship, whereas the dashed-lined arrow shows a "HAS-A" [inheritance](./inheritance.md) relationship.
 
 ![Alt text](./img/uml_relationship_example.png)
+
+###High level class diagram
+A high level class diagram does not include the variables or methods in the diagram, as shown in the example below.
+
+![Alt text](./img/uml_relationship_high_level_example.png)
