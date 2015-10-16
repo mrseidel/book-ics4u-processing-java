@@ -29,8 +29,8 @@ To give some more formal examples:
 ```processing
 //Example #2
 
-float addition(float first, float second) {
-    return first + second;
+float addition(float firstNumber, float secondNumber) {
+    return firstNumber + secondNumber;
 }
 ```
 
@@ -52,8 +52,8 @@ void draw() {
     ellipse(position, height/2, 50, 50);
 }
 
-float addition(float first, float second) {
-  float sum = first + second;
+float addition(float firstNumber, float secondNumber) {
+  float sum = firstNumber + secondNumber;
   return sum;
 }
 ```
