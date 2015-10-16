@@ -284,6 +284,9 @@ public class MovingCircle {
     }
 } 
 ```
+
+```NOTES: Make mention of public static void main (String [] args) {} ```
+
 There are new ideas and concepts introduced in the Java version, and we'll go over those one at a time:
 * **public vs. private**: Typically anything that is information that you do not want automatically accessible to other parts of your program, you will set these items to **private**.  Anything you want accessible to anyone you would set these items to **public**.
 * **Multiple Constructors**: When you want to have different ways of building an object, you can have multiple constructors as long as they have different parameter lists.  In this example, there is a default one with no parameters, one taking in the set of coordinates, and the final one that takes in the set of coordinates and the speeds as well.
