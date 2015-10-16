@@ -7,8 +7,8 @@ In the [Functions](./functions_beyond_void.md) chapter, there was an example as 
 ```processing
 //Example #Docs-1
 
-float addition(float first, float second) {
-    return first + second;
+float addition(float firstNumber, float secondNumber) {
+    return firstNumber + secondNumber;
 }
 ```
 
@@ -17,14 +17,16 @@ Using this example as a place to springboard our introduction to Javadocs, we wi
 ```processing
 //Example #Docs-1
 
-/** This function takes in two float values and returns the sum of those two values
+/** 
+ *  This function takes in two float values and returns the sum of those two values
  *
  *  @param first   This is the first float of the sum
  *  @param second  This is the second float of the sum
+ * 
  *  @return        The return value is the sum of first and second as a float value
  */
-float addition(float first, float second) {
-    return first + second;
+float addition(float firstNumber, float secondNumber) {
+    return firstNumber + secondNumber;
 }
 ```
 
@@ -36,4 +38,4 @@ Creating documentation makes it easier to understand the purpose behind your fun
 Typically, these above is all we will be using in this course for any functions or methods.  There are some other documentation items that we use for classes instead.  There are examples of this documentation in the [Objects](./objects.md) and [Inheritance](./inheritance.md) sections of the text.
 
 ###Exercises
-1. Go back to the exercise(s) you completed in the [Functions](./functions_beyond_void.md) section, and create documentation for all of the functions excluding `draw()` and `setup()`.
+1. Go back to the exercise(s) you completed in the [Functions](./functions_beyond_void.md) section.
