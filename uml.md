@@ -34,3 +34,8 @@ In the example below, there are two types of arrows showing the relationship bet
 A high level class diagram does not include the variables or methods in the diagram, as shown in the example below.
 
 ![Alt text](./img/uml_relationship_high_level_example.png)
+
+###Class diagram example including an [Interface](./interfaces.md)
+Below is an example of a class diagram including an interface.
+
+![Alt text](./img/uml_interface_example.png)
