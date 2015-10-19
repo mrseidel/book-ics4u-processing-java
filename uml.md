@@ -16,12 +16,14 @@ A class diagram is set up into 3 different sections.  The class name, the instan
 
 | Course |
 |------|
-|teacher : String = "Miss Tissism" <br/> courseCode : String |
-|handInWork (work : String) <br/> receiveGrade (grade : int) |
+|-teacher : String = "Miss Tissism" <br/> -courseCode : String |
+|+handInWork (work : String) <br/> +receiveGrade (grade : int) |
 
 The above is a basic example of a class diagram that could be used for a course offered at high school.
 
 The first section contains the class name `Course`.  The next section contains the instance variables `teacher` and `courseCode` as well as their datatypes and their default starting values (if necessary).  The last section contains the various methods a `Course` can have: `handInWork` and `receiveGrade`.  It also contains each of the method's parameter lists.  There is one parameter for `handInWork` which is `work` of type `String`, and one parameter for `receiveGrade` which is `grade` of type `int`.
+
+You will notice most UML diagrams include a ```+```, ```-```, or ```#``` symbol before a variable or method.  This is to signify ```public```, ```private```, and ```protected``` respectively.
 
 ###Relationships
 In a larger environment, there will be many class diagrams all inter-related in some fashion.  This is where a relationship diagram involving the various class diagrams comes in handy.
