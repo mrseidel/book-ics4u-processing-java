@@ -28,10 +28,14 @@ public class Circle implements Shape2D {
         //set an initial value to the radius
     }
     
+    //required to implement
+    //since this method is in the interface
     public double perimeter() {
         return Math.PI * 2 * radius;
     }
     
+    //required to implement
+    //since this method is in the interface
     public double area() {
         return Math.PI * Math.pow(radius, 2);
     }
