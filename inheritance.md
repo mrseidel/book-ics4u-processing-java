@@ -7,7 +7,7 @@ Continuing with our shape examples, let's think about a Sphere.  We can think ab
 If we were to create a Sphere class on its own, it would look something like below (missing documentation):
 
 ```Java
-//Inheritance Example-1
+//Example Inheritance-1
 class Sphere {
 
     private float radius;
@@ -37,7 +37,7 @@ class Sphere {
 Now we are going to look at how this information can be pared down, while taking advantage of the Circle class (found on the [Interfaces](./interfaces.md) page).  There will be explanations of new terms after the newly built Sphere class, and how it works.
 
 ```Java
-//Inheritance Example-2
+//Example Inheritance-2
 class Sphere extends Circle {
 
     public Sphere() {
@@ -70,7 +70,7 @@ Now, where is the missing information?  Where is ```radius``` and ```circumferen
 Let's take a look at how we have to make slight changes to the Circle class in order to accommodate inheritance.
 
 ```Java
-//Inheritance Example-3
+//Example Inheritance-3
 public class Circle implements Shape2D {
 
     protected double radius;
