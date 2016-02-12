@@ -22,7 +22,7 @@ See the below ```Circle``` class to see how to implement an interface.  Some of 
 
 public class Circle implements Shape2D {
 
-    public double radius;
+    private double radius;
     
     public Circle() {
         //set an initial value to the radius
